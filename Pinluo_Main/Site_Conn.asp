@@ -1,0 +1,1 @@
+﻿<%sqlDbPath_access="Pinluo_Main/Database/PinLuo.mdb"%>

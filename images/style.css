@@ -1,0 +1,607 @@
+﻿/* CSS Document */
+
+
+/*总定义*/
+body{
+margin:0px auto auto auto;
+width:1003px;
+font-family:"宋体",Arial;
+font-size:12px;
+}
+ul{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+li{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+p{
+text-indent:0px; 
+padding:0px;
+margin:0px;
+list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+padding:0px;
+margin:0px;
+font-family:"宋体";
+list-style:none;
+}
+.img{
+padding:0px;
+margin:0px;
+list-style:none;
+border:0px;
+}
+.clear{
+clear:both;
+}
+a.d{
+color:#FFFFFF;
+text-decoration:none;
+}
+a.d:hover{
+color:#000000;
+}
+a{
+color:#333333;
+text-decoration:none;
+}
+a:hover{
+color:#993300;}
+
+
+
+/*logo*/
+.logo{
+padding-left:15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+/*导航*/
+.dh{
+background:url(1_07.gif) repeat-x;
+height:28px;
+font-size:14px;
+width:986px;
+margin-left:8px;
+}
+.dh ul{
+padding-left:110px;
+padding-top:6px;
+}
+.dh li{
+float: left;
+padding-right:50px;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+/*bannner*/
+.banner{
+padding-top:5px;
+padding-left:8px;
+}
+
+
+/*内容*/
+.nr{
+padding-top:5px;
+padding-left:10px;
+height:200px;
+width:986px;
+}
+
+
+/*最新资讯*/
+.xw{
+width:320px;
+float:left;
+}
+.xw_tou1{
+background:url(1_14.gif) no-repeat;
+height:30px;
+width:79px;
+float:left;
+}
+.xw_tou1 h3{
+padding-left:10px;
+padding-top:8px;
+display:block;
+font-weight:bold;
+font-size:14px;
+}
+.xw_tou2{
+background:url(1_20.gif) repeat-x bottom;
+height:30px;
+width:241px;
+float:right;
+}
+.xw_tou2 span{
+float:right;
+padding-top:8px;
+padding-right:10px;
+font-size:12px;
+}
+.xw_lb{
+padding-top:40px;
+line-height:24px;
+font-size:12px;
+}
+
+
+/*产品展示*/
+.cp{
+padding-left:16px;
+float:left;
+width:360px;
+}
+.cp_tou1{
+background:url(1_14.gif) no-repeat;
+height:30px;
+width:79px;
+float:left;
+}
+.cp_tou1 h3{
+padding-left:10px;
+padding-top:8px;
+display:block;
+font-weight:bold;
+font-size:14px;
+}
+.cp_tou2{
+background:url(1_20.gif) repeat-x bottom;
+height:30px;
+width:281px;
+float:right;
+}
+.cp_tou2 span{
+float:right;
+padding-top:8px;
+padding-right:10px;
+font-size:12px;
+}
+.cp_lb{
+padding-top:50px;
+line-height:24px;
+}
+.cp_lb ul{}
+.cp_lb li{
+float:left;
+padding-right:6px;
+font-size:12px;
+}
+.cp_lb li p{
+text-align: center;}
+
+
+
+
+
+/*联系我们*/
+.lx{
+width:240px;
+float:left;
+padding-left:15px;
+}
+.lx_tou1{
+background:url(1_14.gif) no-repeat;
+height:30px;
+width:79px;
+float:left;
+}
+.lx_tou1 h3{
+padding-left:10px;
+padding-top:8px;
+display:block;
+font-weight:bold;
+font-size:14px;
+}
+.lx_tou2{
+background:url(1_20.gif) repeat-x bottom;
+height:30px;
+width:161px;
+float:right;
+}
+.lx_tou2 span{
+float:right;
+padding-top:8px;
+padding-right:10px;
+font-size:12px;
+}
+.lx_lb{
+padding-top:40px;
+line-height:24px;
+font-size:12px;
+}
+.lx_lb ul{
+margin-left:15px;
+}
+
+
+/*版权*/
+.bq{
+padding-top:15px;
+font-size:12px;
+line-height:22px;
+width:1000px;
+}
+
+
+
+/*——————公司简介——————*/
+.zuo{
+float:left;
+}
+.you{
+float: right;
+padding-right:10px;
+}
+.xia{
+width:1000px;
+}
+/*最新资讯*/
+.zx{
+border:#94d263 solid 1px;
+width:280px;
+margin-left:10px;
+margin-top:8px;
+}
+.zx_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.zx_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.zx ul{
+padding-left:15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.zx li{
+font-size:12px;
+line-height:24px;
+}
+
+
+
+
+
+/*联系我们*/
+.lx1{
+border:#94d263 solid 1px;
+width:280px;
+margin-left:10px;
+margin-top:15px;
+}
+.lx1_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.lx1_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.lx1 ul{
+padding-left:15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.lx1 li{
+font-size:12px;
+line-height:24px;
+}
+
+
+/*公司简介*/
+.gs{
+border:#94d263 solid 1px;
+width:680px;
+height:330px;
+margin-top:8px;
+}
+.gs_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.gs_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.zi{
+padding-top:8px;
+line-height:22px;
+font-size:12px;
+padding-left:10px;
+width:463px;
+float:left;
+}
+.tu{
+background:url(gsjj_07.jpg) no-repeat;
+height:267px;
+width:189px;
+float:right;
+margin-top:8px;
+margin-right:8px;
+}
+
+/*——————新闻动态——————*/
+
+/*新闻动态*/
+.dt{
+border:#94d263 solid 1px;
+width:280px;
+margin-left:10px;
+margin-top:8px;
+}
+.dt_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.dt_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.dt ul{
+padding-top:15px;
+padding-bottom:15px;
+padding-left:50px;
+}
+.dt li{
+font-size:12px;
+line-height:24px;
+}
+
+
+/*公司新闻*/
+.gs1{
+border:#94d263 solid 1px;
+width:680px;
+margin-top:8px;
+}
+.gs1_tou{
+height:30px;
+width:100%;
+color:#FFFFFF;
+}
+.gs1_tou span{
+font-family:"宋体";
+font-weight:bold;
+font-size:13px;
+line-height:30px;
+padding:8px 8px;
+background:url(gsjj_10.jpg) repeat-x;
+background-color:#6C0;
+/*
+height:30px;
+width:auto;
+min-width:70px;
+_width:70px;*/
+}
+.gs1_lb{
+padding-left:10px;
+padding-right:10px;
+line-height:24px;
+}
+.zheng{
+float:left;
+}
+.shijian{
+float:right;
+}
+.gs1_lb ul{
+padding-top:8px;
+}
+.gs1_lb li{
+clear:both;
+font-size:12px;
+}
+.gs1_lb li a{cursor:pointer;}
+.ji{
+padding-top:10px;
+padding-left:10px;
+line-height:24px;
+font-size:12px;
+}
+
+/*——————产品展示——————*/
+/*产品展示*/
+.zs{
+border:#94d263 solid 1px;
+width:280px;
+margin-left:10px;
+margin-top:8px;
+}
+.zs_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.zs_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.zs ul{
+padding-top:5px;
+padding-left:80px;
+padding-bottom:5px;
+}
+.zs li{
+font-size:14px;
+line-height:24px;
+}
+
+
+
+
+.zs1{
+border:#94d263 solid 1px;
+width:680px;
+height:330px;
+margin-left:10px;
+margin-top:8px;
+}
+.zs1_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.zs1_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.zs1 ul{
+padding-left:15px;
+padding-top:15px;
+}
+.zs1 li{
+float:left;
+padding-right:8px;
+padding-top:15px;
+font-size:12px;
+}
+.zs1 li p{
+text-align:center;
+padding-top:5px;
+}
+
+
+
+/*——————联系我们——————*/
+.lx2_lb{
+padding-top:15px;
+font-size:12px;
+padding-bottom:15px;
+}
+.lx2{
+border:#94d263 solid 1px;
+width:680px;
+margin-top:8px;
+}
+.lx2_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.lx2_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+
+
+
+/*——————给我留言——————*/
+.ly{
+border:#94d263 solid 1px;
+width:680px;
+margin-top:8px;
+}
+.ly_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:680px;
+}
+.ly_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+.ly1{
+padding-right:50px;
+font-size:12px;
+clear:both;
+}
+
+
+
+/*——————资质荣誉——————*/
+.ry{
+border:#94d263 solid 1px;
+width:680px;
+height:330px;
+margin-top:8px;
+}
+.ry_tou{
+background:url(gsjj_10.jpg) no-repeat;
+height:30px;
+width:70px;
+}
+.ry_tou h3{
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+padding-left:5px;
+padding-top:5px;
+}
+.xian{
+border-bottom:#94d263 solid 1px;
+}
+
+
+
+/*新增*/
+.artview{margin:0 10px 10px 0 ;}
+.artview_title{height:40px;line-height:30px;border-bottom:#f5f5f5 2px solid;text-align:center;font-size:14px;font-weight:bold;margin-bottom:6px;}
+.artview_info{text-align:center;}
+.artview_intr{padding:5px 5px 5px 0px;line-height:1.7em;color:#868686;background-color:#F5F5F5;border:#E5E5E5 1px solid;margin-bottom:10px;}
+#artview_content{line-height:2em;text-indent:28px;text-align:justify; text-justify:inter-ideograph;}
+#artview_content,#artview_content a{font-size:12px;}
+
+.gs1 .ItemContent{padding:8px;line-height:180%;}
+.ItemContent img{padding:5px;}
+
+.ly100{padding:0px; color:#555}
