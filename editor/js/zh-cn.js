@@ -1,9 +1,9 @@
 /*
 *######################################
-* eWebEditor v5.5 - Advanced online web based WYSIWYG HTML editor.
-* Copyright (c) 2003-2008 eWebSoft.com
+* eWebEditor V9.0 - Advanced online web based WYSIWYG HTML editor.
+* Copyright (c) 2003-2013 eWebSoft.com
 *
-* For further information go to http://www.ewebsoft.com/
+* For further information go to http://www.ewebeditor.net/
 * This copyright notice MUST stay intact for use.
 *######################################
 */
@@ -29,6 +29,8 @@ lang["SelectAll"]				= "全部选中"
 lang["UnSelect"]				= "取消选择"
 lang["FindReplace"]				= "查找替换..."
 lang["SpellCheck"]				= "拼写检查..."
+lang["QuickFormat"]				= "一键排版..."
+lang["FormatBrush"]				= "格式刷"
 
 // Font
 lang["FontMenu"]				= "字体菜单"
@@ -69,7 +71,7 @@ lang["RemoteUpload"]			= "远程文件自动上传"
 lang["LocalUpload"]				= "本地文件自动上传"
 lang["Fieldset"]				= "插入或修改栏目框"
 lang["Iframe"]					= "插入或修改网页帧"
-lang["HorizontalRule"]			= "插入水平尺"
+lang["HorizontalRule"]			= "插入或修改水平尺"
 lang["Marquee"]					= "插入或修改字幕"
 lang["CreateLink"]				= "插入或修改超链接"
 lang["Unlink"]					= "取消超链接或标签"
@@ -83,7 +85,8 @@ lang["BackImage"]				= "背景图片"
 lang["absolutePosition"]		= "绝对或相对位置"
 lang["zIndexBackward"]			= "下移一层"
 lang["zIndexForward"]			= "上移一层"
-lang["ShowBorders"]				= "显示隐藏指导方针"
+lang["ShowBorders"]				= "显示/隐藏虚框"
+lang["ShowBlocks"]				= "显示区块"
 lang["Quote"]					= "引用样式"
 lang["Code"]					= "代码样式"
 
@@ -101,6 +104,12 @@ lang["NowTime"]					= "插入当前时间"
 lang["ImportWord"]				= "导入Word文档"
 lang["ImportExcel"]				= "导入Excel表格"
 lang["Template"]				= "插入模板"
+lang["Capture"]					= "截屏"
+lang["Pagination"]				= "分页管理"
+lang["PaginationInsert"]		= "插入分页符"
+lang["TitleImage"]				= "设为标题图片"
+lang["ImageDoc"]				= "制作图片文库"
+lang["ImportPPT"]				= "导入PPT"
 
 // Form
 lang["FormMenu"]				= "表单菜单"
@@ -143,6 +152,7 @@ lang["ZoomMenu"]				= "缩放菜单"
 lang["Maximize"]				= "全屏编辑"
 lang["Minimize"]				= "全屏返回"
 lang["Save"]					= "保存并返回"
+lang["ExpandToolbar"]			= "切换到所有功能"
 
 // Gallery
 lang["GalleryMenu"]				= "文件库菜单"
@@ -153,14 +163,14 @@ lang["GalleryFile"]				= "浏览文件库"
 
 // Help
 lang["Help"]					= "查看使用帮助"
-lang["About"]					= "关于品络科技"
-lang["Site"]					= "品络科技站点"
+lang["About"]					= "关于eWebEditor"
+lang["Site"]					= "eWebEditor站点"
 
 // Combo
 lang["FontName"]				= "字体"
 lang["FontNameItem"]			= ["宋体", "黑体", "楷体_GB2312", "仿宋_GB2312", "隶书", "幼圆", "Arial", "Arial Black", "Arial Narrow", "Brush Script MT", "Century Gothic", "Comic Sans MS", "Courier", "Courier New", "MS Sans Serif", "Script", "System", "Times New Roman", "Verdana", "Wide Latin", "Wingdings"]
 lang["FontSize"]				= "字号"
-lang["FontSizeItem"]			= [ ["26pt", "1号"], ["22pt", "2号"], ["16pt", "3号"], ["14pt", "4号"], ["10.5pt", "5号"], ["7.5pt", "6号"], ["5.5pt", "7号"], ["12px", "12px"], ["14px", "14px"], ["16px", "16px"], ["18px", "18px"], ["20px", "20px"], ["22px", "22px"], ["24px", "24px"], ["30px", "30px"], ["36px", "36px"], ["48px", "48px"] ]
+lang["FontSizeItem"]			= [ ["42pt","初号"], ["36pt","小初"], ["26pt","一号"], ["24pt","小一"], ["22pt","二号"], ["18pt","小二"], ["16pt","三号"], ["15pt","小三"], ["14pt","四号"], ["12pt","小四"], ["10.5pt","五号"], ["9pt","小五"], ["7.5pt","六号"], ["6.5pt","小六"], ["5.5pt","七号"], ["5pt","八号"], ["5pt","5"], ["5.5pt","5.5"], ["6.5pt","6.5"], ["7.5pt","7.5"], ["8pt","8"], ["9pt","9"], ["10pt","10"], ["10.5pt","10.5"], ["11pt","11"], ["12pt","12"], ["14pt","14"], ["16pt","16"], ["18pt","18"], ["20pt","20"], ["22pt","22"], ["24pt","24"], ["26pt","26"], ["28pt","28"], ["36pt","36"], ["48pt","48"], ["72pt","72"] ]
 lang["FormatBlock"]				= "段落样式"
 lang["FormatBlockItem"]			= [ ["&lt;P&gt;", "普通"], ["&lt;H1&gt;", "标题一"], ["&lt;H2&gt;", "标题二"], ["&lt;H3&gt;", "标题三"], ["&lt;H4&gt;", "标题四"], ["&lt;H5&gt;", "标题五"], ["&lt;H6&gt;", "标题六"], ["&lt;p&gt;", "段落"], ["&lt;dd&gt;", "定义"], ["&lt;dt&gt;", "术语定义"], ["&lt;dir&gt;", "目录列表"], ["&lt;menu&gt;", "菜单列表"], ["&lt;PRE&gt;", "已编排格式"] ]
 lang["ZoomSelect"]				= "缩放"
@@ -184,17 +194,27 @@ lang["FormatBlockMenu"]			= "段落样式"
 
 
 // About Dialog
-lang["DlgAbout"]				= "关于 - 品络科技"
+lang["DlgAbout"]				= "关于 - eWebEditor"
 lang["DlgAboutVersion"]			= "版本"
 lang["DlgAboutLicense"]			= "版权所有"
-lang["DlgAboutInfo"]			= "更多关于在线编辑器的信息，请访问："
+lang["DlgAboutInfo"]			= "更多关于eWebEditor在线编辑器的信息，请访问："
 
 // Dialog Install eWebEditor ActiveX
-lang["DlgActivex"]				= "安装/升级：在线编辑器 控件"
-lang["DlgActivexMsg"]			= "使用此功能，您需要安装/升级 在线编辑器 控件程序。当前系统正在偿试在线自动安装，请稍候！<br><br>提示：如此页面长时间无响应，您也可以点击下面的链接下载安装程序，然后双击运行安装程序。注意，安装前请关闭所有打开的IE窗口。"
-lang["DlgActivexDown"]			= "点击下载"
+lang["DlgActivex"]				= "安装/升级：eWebEditor 控件"
+lang["DlgActivexMsg"]			= "使用此功能，您需要安装/升级 eWebEditor 控件程序。您可以选择以下两种方式安装 eWebEditor 控件："
+lang["DlgActivexDown"]			= "下载安装"
 lang["DlgActivexOk"]			= "安装完成！"
 lang["DlgActivexLegend"]		= "安装提示"
+lang["DlgActivexOnline"]		= "在线安装"
+lang["DlgActivexOnlineDesc"]	= "通过浏览器自动安装，方便快捷。<span class=red>(推荐)</span>"
+lang["DlgActivexDownDesc"]		= "下载一个安装程序到您的计算机，运行这个程序进行安装。<br>如果您的浏览器无法正确安装控件，请选择本方法。"
+
+// Dialog Install eWebEditorPrinter
+lang["DlgPrinter"]				= "安装：eWebEditorPrinter"
+lang["DlgPrinterMsg"]			= "使用此功能，您需要先安装基于虚拟打印技术的 eWebEditor 文档图形转换驱动程序。然后，您就可以把文档转换为与打印效果完全相同的图片格式文件。"
+lang["DlgPrinterDown"]			= "下载安装"
+lang["DlgPrinterDownDesc"]		= "点击下载一个安装程序到您的计算机，双击运行这个程序进行安装。"
+lang["DlgPrinterOk"]			= "安装完成！"
 
 // Anchor Dialog
 lang["DlgAnchor"]				= "标签管理"
@@ -242,6 +262,9 @@ lang["DlgFs"]					= "栏目框属性"
 lang["DlgFsFieldset"]			= "栏目对齐"
 lang["DlgFsLegend"]				= "标题对齐"
 
+// Dialog HR
+lang["DlgHr"]					= "水平尺"
+
 // File Dialog
 lang["DlgFile"]					= "文件属性"
 lang["DlgFileSource"]			= "文件来源"
@@ -288,7 +311,7 @@ lang["DlgFlashVars"]			= "传入参数"
 lang["DlgFlashErrBgColor"]		= "提示：\n\n无效的背景颜色值！"
 
 // Fullscreen Dialog
-lang["DlgFullscreen"]			= "品络科技www.5300.cn - 全屏编辑"
+lang["DlgFullscreen"]			= "eWebEditor - 全屏编辑"
 
 // Hyperlink Dialog
 lang["DlgHylnk"]				= "超级链接属性"
@@ -372,6 +395,17 @@ lang["DlgMediaSource"]			= "媒体文件来源"
 lang["DlgMediaEffect"]			= "播放效果"
 lang["DlgMediaWidth"]			= "播放宽度"
 lang["DlgMediaHeight"]			= "播放高度"
+lang["DlgMediaPlugin"]			= "插件类型"
+lang["DlgMediaPluginAuto"]		= "自动选择"
+lang["DlgMediaPluginWMP6"]		= "Windows Media Player V6 播放插件"
+lang["DlgMediaPluginWMP7"]		= "Windows Media Player V7+ 播放插件"
+lang["DlgMediaPluginReal"]		= "RealPlayer 播放插件"
+lang["DlgMediaPluginQT"]		= "QuickTime 播放插件"
+lang["DlgMediaPluginFLV"]		= "FLV 播放插件"
+lang["DlgMediaAutoStart"]		= "自动播放"
+lang["DlgMediaMsgPlugin"]		= "未知文件类型，请指定您想使用的媒体播放插件。"
+lang["DlgMediaPreviewImg"]		= "预览图片"
+lang["DlgMediaPreviewImgDesc"]	= "此项仅在使用[FLV播放插件]时有效"
 
 // SelColor Dialog
 lang["DlgSelCor"]				= "颜色选择"
@@ -464,9 +498,18 @@ lang["DlgComVSpace"]			= "垂直间距"
 lang["DlgComHSpace"]			= "水平间距"
 lang["DlgComWidth"]				= "宽度"
 lang["DlgComHeight"]			= "高度"
+lang["DlgComColor"]				= "颜色"
+lang["DlgComAlign"]				= "对齐"
 lang["DlgComBgColor"]			= "背景颜色"
 lang["DlgComPreview"]			= "预览"
 lang["DlgComClose"]				= "关闭"
+lang["DlgComTabNormal"]			= "常规设置"
+lang["DlgComTabMFU"]			= "批量上传"
+lang["DlgComMFUMsgAllow"]		= "说明：批量上传允许文件类型：<ext>，允许文件大小：<size>。"
+lang["DlgComMFUMsgNotInstall"]	= "批量上传控件未安装或版本太旧，暂不能使用。"
+lang["DlgComMFUMsgInstallOk"]	= "批量上传控件已安装成功！"
+lang["DlgComMFUMsgBtnOk"]		= "开始使用"
+lang["DlgComNotice"]			= "提示："
 
 // Dialog Align
 lang["DlgAlign"]				= "对齐方式"
@@ -570,7 +613,12 @@ lang["DlgBrowsePageLast"]		= "尾页"
 
 // Dialog Import Word
 lang["DlgWord"]					= "导入Word文档"
-lang["DlgWordFile"]				= "选择文档"
+lang["DlgWordLegend"]			= "Word选项"
+lang["DlgWordFile"]				= "文件"
+lang["DlgWordAPI"]				= "接口"
+lang["DlgWordAPI0"]				= "自动处理"
+lang["DlgWordAPI1"]				= "微软Office Word"
+lang["DlgWordAPI2"]				= "金山WPS文字"
 lang["DlgWordInvalidFile"]		= "无效的Word文档文件，请选择！"
 lang["DlgWordImporting"]		= "...Word文档导入中...请等待..."
 lang["DlgWordOptimize"]			= "优化选项"
@@ -580,6 +628,7 @@ lang["DlgWordOpt1Absolute"]		= "去除浮动"
 lang["DlgWordOpt1EQ"]			= "公式优化"
 lang["DlgWordOpt1Margin"]		= "边距优化"
 lang["DlgWordOpt1Space"]		= "去除空行"
+lang["DlgWordOpt1Grid"]			= "去除网格"
 lang["DlgWordOpt2"]				= "全部清除模式 (除以下选项外的其它所有效果都将被清除)"
 lang["DlgWordOpt2Image"]		= "保留图片"
 lang["DlgWordOpt2Table"]		= "表格优化"
@@ -587,12 +636,29 @@ lang["DlgWordOpt2EQ"]			= "公式优化"
 lang["DlgWordOpt2Indent"]		= "首行缩进"
 lang["DlgWordOpt2PtoBR"]		= "P转为BR"
 lang["DlgWordPaste"]			= "粘贴"
+lang["DlgWordPage"]				= "导入页面效果"
+lang["DlgWordPageWidth"]		= "导入页宽"
+lang["DlgWordPageMargin"]		= "页边距"
+lang["DlgWordPageEffect"]		= "边框效果"
+lang["DlgWordPageScroll"]		= "自动滚动"
+lang["DlgWordModeHTML"]			= "HTML图文格式"
+lang["DlgWordModeIMG"]			= "纯图片格式"
+lang["DlgWordImgType"]			= "图片类型"
+lang["DlgWordImgAlt"]			= "注：此模式下所有文字将转为图片，不可再编辑。"
+lang["DlgWordImgEfFlag"]		= "启用文档效果"
+lang["DlgWordImgEfWidth"]		= "宽度"
+lang["DlgWordImgEfHeight"]		= "高度"
 
 // Dialog Import Excel
 lang["DlgExcel"]				= "导入Excel电子表格"
 lang["DlgExcelLegend"]			= "Excel选项"
 lang["DlgExcelFile"]			= "文　件"
+lang["DlgExcelAPI"]				= "接　口"
+lang["DlgExcelAPI0"]			= "自动处理"
+lang["DlgExcelAPI1"]			= "微软Office Excel"
+lang["DlgExcelAPI2"]			= "金山WPS表格"
 lang["DlgExcelSheet"]			= "工作表"
+lang["DlgExcelSheetAll"]		= "所有..."
 lang["DlgExcelInvalidFile"]		= "无效的Excel文件，请选择！"
 lang["DlgExcelImporting"]		= "...Excel导入中...请等待..."
 lang["DlgExcelOptimize"]		= "优化选项"
@@ -604,7 +670,7 @@ lang["DlgExcelOpt1Overflow"]	= "自动滚动"
 lang["DlgExcelOpt2"]			= "全部清除模式 (除以下选项外的其它所有效果都将被清除)"
 lang["DlgExcelOpt2Image"]		= "保留图片"
 lang["DlgExcelOpt2Space"]		= "去除空行"
-lang["DlgExcelOpt2Table"]		= "表格优化"
+lang["DlgExcelOpt2Table"]		= "表格加线"
 
 // Dialog OWC Excel
 lang["DlgOWCExcel"]				= "插入Excel电子表格"
@@ -628,6 +694,92 @@ lang["DlgIUploadFile"]			= "文件"
 lang["DlgIUploadOpt"]			= "选项"
 lang["DlgIUploadErrLink"]		= "无效参数：链接表单项(link)"
 
+// Dialog QuickFormat
+lang["DlgQF"]					= "一键排版"
+lang["DlgQFPaste"]				= "粘贴"
+lang["DlgQFKeepAll"]			= "保留所有"
+lang["DlgQFKeep"]				= "保留选项"
+lang["DlgQFKeepUl"]				= "保留列表"
+lang["DlgQFKeepTable"]			= "保留表格"
+lang["DlgQFKeepImg"]			= "保留图片"
+lang["DlgQFKeepA"]				= "保留超链接"
+lang["DlgQFKeepObject"]			= "保留对象"
+lang["DlgQFDel"]				= "去除选项"
+lang["DlgQFDelLine"]			= "去除空行"
+lang["DlgQFDelSpace"]			= "去除多余空格"
+lang["DlgQFDelHidden"]			= "去除隐藏域"
+lang["DlgQFDelAllAttr"]			= "去除所有属性"
+lang["DlgQFDelStyle"]			= "去除样式属性"
+lang["DlgQFDelOn"]				= "去除事件属性"
+lang["DlgQFAdd"]				= "增效选项"
+lang["DlgQFAddMargin"]			= "段前段后置0"
+lang["DlgQFAddIndent"]			= "首行缩进2字"
+lang["DlgQFAddJustify"]			= "两端对齐"
+lang["DlgQFAddLineHeight"]		= "行距"
+lang["DlgQFAddBR2P"]			= "&lt;BR&gt;转&lt;P&gt;"
+lang["DlgQFAddTableBC"]			= "单线表格"
+lang["DlgQFAddImgCenter"]		= "图片居中"
+lang["DlgQFConfusion"]			= "去除干扰字"
+lang["DlgQFConfusionAuto"]		= "自动检测"
+lang["DlgQFConfusionSuper"]		= "自动检测+源分析"
+lang["DlgQFConfusionColor"]		= "干扰字色"
+lang["DlgQFConfusionClass"]		= "干扰字类"
+lang["DlgQFAddMarginTop"]		= "段前"
+lang["DlgQFAddMarginBottom"]	= "段后"
+lang["DlgQFAddFontName"]		= "字体"
+lang["DlgQFAddFontSize"]		= "字号"
+
+// Dialog Paste Options
+lang["DlgPaste"]				= "选择性粘贴"
+lang["DlgPasteOpt"]				= "格式选项"
+lang["DlgPasteOptImg"]			= "图片格式"
+lang["DlgPasteOptHtml"]			= "HTML格式"
+lang["DlgPasteOptText"]			= "纯文字格式"
+lang["DlgPasteOptFile"]			= "多图片文件格式"
+lang["DlgPasteFileExt"]			= "支持文件格式"
+lang["DlgPasteFileSize"]		= "支持文件大小"
+lang["DlgPasteFileUploading"]	= "...多文件上传中...请等待..."
+
+// Dialog Paste Gecko
+lang["DlgPasteGecko"]			= "粘贴"
+lang["DlgPasteGeckoText"]		= "粘贴为纯文本格式"
+lang["DlgPasteGeckoMsg"]		= "请使用键盘快捷键(Ctrl+V)把内容粘贴到下面的方框里，再按“确定”。"
+lang["DlgPasteGeckoSecurity"]	= "因为您的浏览器的安全设置原因，本编辑器不能直接访问您的剪贴板内容，您需要在本窗口重新粘贴一次。"
+
+// Dialog Pagination
+lang["DlgPagi"]					= "分页管理"
+lang["DlgPagiTitle"]			= "分页标题"
+lang["DlgPagiTitleUp"]			= "向上"
+lang["DlgPagiTitleDown"]		= "向下"
+lang["DlgPagiTitleModi"]		= "修改"
+lang["DlgPagiAuto"]				= "自动分页"
+lang["DlgPagiAutoNum"]			= "每页最少文字数"
+lang["DlgPagiAutoBtn"]			= "自动重新分页"
+lang["DlgPagiKey"]				= "分页符"
+lang["DlgPagiKeyInsert"]		= "插入分页符"
+lang["DlgPagiKeyEmpty"]			= "清空分页符"
+
+// Dialog Image1
+lang["DlgImage1"]				= "上传图片"
+
+// Dialog Import PPT
+lang["DlgPPT"]					= "导入PPT文档"
+lang["DlgPPTLegend"]			= "文件选项"
+lang["DlgPPTOptimize"]			= "导入选项"
+lang["DlgPPTInvalidFile"]		= "无效的PPT文档文件，请选择！"
+lang["DlgPPTtwFlag"]			= "启用图片压缩"
+lang["DlgPPTtw"]				= "宽度"
+lang["DlgPPTth"]				= "高度将同比例缩放"
+lang["DlgPPTFile"]				= "文件"
+lang["DlgPPTAPI"]				= "接口"
+lang["DlgPPTAPI0"]				= "自动处理"
+lang["DlgPPTAPI1"]				= "微软Office PowerPoint"
+lang["DlgPPTAPI2"]				= "金山WPS演示"
+lang["DlgPPTImporting"]			= "...文档导入中...请等待..."
+
+// Dialog Container
+lang["DlgDlgTitle"]				= "对话框加载中..."
+
 
 
 //#####################################
@@ -637,12 +789,17 @@ lang["ErrNoLinkField"]			= "调用错误：请传入调用参数ID，即隐藏的内容表单项ID！"
 lang["ErrInvalidStyle"]			= "调用错误：请传入有效的样式名！"
 lang["ErrUploadInvalidExt"]		= "提示：\n\n请选择一个有效的文件，\n支持的格式有"
 lang["ErrUploadInvalidFile"]	= "请选择有效的上传文件！"
-lang["ErrUploadSizeLimit"]		= "您上传的文件总大小超出了最大限制"
+lang["ErrUploadSizeLimit"]		= "您上传的文件大小超出了最大限制"
+lang["ErrUploadSpaceLimit"]		= "您的上传文件空间已经达到了最大限制"
 lang["ErrParam"]				= "错误参数调用！"
+lang["ErrInputNull"]			= "不能为空！"
+lang["ErrInput"]				= "无效输入值！"
+lang["ErrLicense"]				= "未授权：功能被禁用，请先配置授权！"
+lang["ErrInvalidFile"]			= "提示：\n\n请选择一个有效的文件，\n支持的格式有"
 
-lang["MsgPasteWordConfirm"]		= "你要粘贴的内容好象是从Word中拷出来的，是否要先清除Word格式再粘贴？"
-lang["MsgNotCompatiblePaste"]	= "此功能要求IE5.5版本以上，你当前的浏览器不支持，是否按常规粘贴进行？"
 lang["MsgOnlyInEditMode"]		= "需转换为编辑状态后才能使用编辑功能！"
+lang["MsgOnlyForIE"]			= "此功能只能在 IE 浏览器下使用！"
+lang["MsgOnlyFor32Bit"]			= "此高级功能只能在 32位 浏览器下使用！"
 lang["MsgCanotSetInViewMode"]	= "预览时不允许设置编辑区内容。"
 lang["MsgNotCompatibleHtml"]	= "HTML编辑模式需要IE5.5版本以上的支持！"
 lang["MsgNotCompatibleFunc"]	= "此功能需要IE5.5版本以上的支持！"
@@ -652,8 +809,11 @@ lang["MsgMapLimit"]				= "热点链接只能作用于图片"
 lang["MsgRemoteUploading"]		= "...远程文件收集中...请等待..."
 lang["MsgLocalUploading"]		= "...本地文件上传中...请等待..."
 lang["MsgNotParagraph"]			= "段落属性只能应用于段落，请至少选择一个段落！"
-lang["MsgNoClient"]				= "您还未安装品络科技编辑器客户端插件, 请先安装再使用此功能！"
+lang["MsgNoClient"]				= "您还未安装eWebEditor客户端控件, 请先安装再使用此功能！"
 lang["MsgIeSpellDownload"]		= "拼写检查插件还没安装，你是否想现在就下载？"
+
+lang["MsgSafeCut"]				= "您的浏览器安全设置不允许编辑器自动执行剪切操作，请使用键盘快捷键(Ctrl+X)来完成。"
+lang["MsgSafeCopy"]				= "您的浏览器安全设置不允许编辑器自动执行复制操作，请使用键盘快捷键(Ctrl+C)来完成。"
 
 lang["HtmlQuote"]				= "以下是引用片段："
 lang["HtmlCode"]				= "以下是代码片段："
@@ -671,3 +831,5 @@ lang["ErrColorInvalid"]			= "无效的颜色值！"
 lang["CMenuImg"]				= "图片属性..."
 lang["CMenuParagraph"]			= "段落属性..."
 lang["CMenuFlash"]				= "Flash属性..."
+lang["CMenuMedia"]				= "媒体属性..."
+lang["CMenuHr"]					= "水平尺属性..."

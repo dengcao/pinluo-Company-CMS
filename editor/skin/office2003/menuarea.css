@@ -1,5 +1,10 @@
-ï»¿body,a,table,div,span,td,th,input,select,p,li,textarea{font-size:9pt;font-family:å®‹ä½“}
-body {margin:0px;border:0px}
+body,a,table,div,span,td,th,input,select,p,li,textarea{font-size:9pt;font-family:ËÎÌå}
+
+input.dlgBtnCommon {width:60px}
+input.dlgBtnBrowse {width:63px;height:18px;margin-left:2px;padding-top:0px;}
+input.dlgBtnFind {width:80px}
+
+body {margin:0px;padding:0px;border:0px}
 
 .Menu_Image, .Menu_Image_Disabled{overflow:hidden;width:16px;height:16px;margin:2px;background-repeat: no-repeat;}
 .Menu_Image img, .Menu_Image_Disabled img{position: relative;}
