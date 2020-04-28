@@ -24,6 +24,9 @@
 
 ### 版权所有
 
-开发者：草札 www.caozha.com
 
-域名空间：www.pinluo.com
+开发：草札 www.caozha.com
+
+鸣谢：品络 www.pinluo.com  &ensp;  琼店 www.qiongdian.com
+
+
