@@ -10,9 +10,9 @@
 
 支持本程序，请到Gitee和GitHub给我们点Star！
 
-Gitee：https://gitee.com/caozha/pinluo-Company-CMS
+Gitee：https://gitee.com/dengzhenhua/pinluo-Company-CMS
 
-GitHub：https://github.com/cao-zha/pinluo-Company-CMS
+GitHub：https://github.com/dengcao/pinluo-Company-CMS
 
 ### 安装方法
 
@@ -28,11 +28,11 @@ GitHub：https://github.com/cao-zha/pinluo-Company-CMS
 
 2、网站目录必须开启写入权限，否则会安装失败。
 
-### 版权所有
+### 关于
 
-开发：草札 www.caozha.com
+开发：[邓草博客 blog.5300.cn](http://blog.5300.cn)
 
-鸣谢：品络 www.pinluo.com  &ensp;  穷店 www.qiongdian.com
+赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
 
 
 
